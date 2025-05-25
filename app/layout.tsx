@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 export default function AppLayout({
-                                   children,
+                                   children
                                }: Readonly<{
     children: React.ReactNode;
 }>) {
