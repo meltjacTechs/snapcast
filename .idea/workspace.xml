@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add Navbar component and update RootLayout to include it">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add user avatar button to Navbar component">
       <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,7 @@
       <workItem from="1748011228644" duration="3876000" />
       <workItem from="1748063998332" duration="2481000" />
       <workItem from="1748213250054" duration="2499000" />
-      <workItem from="1748246647741" duration="2152000" />
+      <workItem from="1748246647741" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="add font integration and layout updates for Satoshi font">
       <option name="closed" value="true" />
@@ -151,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748247815110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add user avatar button to Navbar component">
+      <option name="closed" value="true" />
+      <created>1748248875455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748248875455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +169,7 @@
     <MESSAGE value="add Auth and Root layout components" />
     <MESSAGE value="refactor layout components and add new Page component" />
     <MESSAGE value="add Navbar component and update RootLayout to include it" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Navbar component and update RootLayout to include it" />
+    <MESSAGE value="add user avatar button to Navbar component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user avatar button to Navbar component" />
   </component>
 </project>
