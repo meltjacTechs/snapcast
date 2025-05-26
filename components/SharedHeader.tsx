@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import {ICONS} from "@/constants";
+import DropdownList from "@/components/DropdownList";
 
 const SharedHeader = ({ subHeader, title, userImg } : SharedHeaderProps) => {
     return (
@@ -23,7 +25,25 @@ const SharedHeader = ({ subHeader, title, userImg } : SharedHeaderProps) => {
                             Upload a video
                         </span>
                     </Link>
+                    <div className="record">
+                        <button className="primary-btn">
+                            <Image src={ICONS.record} alt="record" width={16} height={16} />
+                            <span>Record a video</span>
+                        </button>
+                    </div>
                 </aside>
+            </section>
+
+            <section className="search-filter">
+                <div className="search">
+                   <input
+                       type="text"
+                       placeholder="Search for videos, tags, folders..."
+                   />
+                    <Image src="/assets/icons/search.svg" alt="search"  width={16} height={16} />
+                </div>
+
+                {`<DropdownList />`}
             </section>
         </header>
     )

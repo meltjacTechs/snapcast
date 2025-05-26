@@ -14,7 +14,7 @@ const Navbar = () => {
 
                 {user && (
                     <figure>
-                        <button>
+                        <button onClick={() =>}>
                             <Image src="/assets/images/dummy.jpg" alt="User" width={36} height={36} className="rounded-full aspect-square" />
                         </button>
 

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add SharedHeader component and update page layout">
+    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add upload link to SharedHeader component">
+      <change afterPath="$PROJECT_DIR$/components/DropdownList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/SharedHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SharedHeader.tsx" afterDir="false" />
     </list>
@@ -117,7 +118,7 @@
       <workItem from="1748011228644" duration="3876000" />
       <workItem from="1748063998332" duration="2481000" />
       <workItem from="1748213250054" duration="2499000" />
-      <workItem from="1748246647741" duration="5834000" />
+      <workItem from="1748246647741" duration="7446000" />
     </task>
     <task id="LOCAL-00001" summary="add font integration and layout updates for Satoshi font">
       <option name="closed" value="true" />
@@ -175,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748255025206</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add upload link to SharedHeader component">
+      <option name="closed" value="true" />
+      <created>1748255601171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748255601171</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +198,7 @@
     <MESSAGE value="add user avatar button to Navbar component" />
     <MESSAGE value="add logout button to Navbar component" />
     <MESSAGE value="add SharedHeader component and update page layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SharedHeader component and update page layout" />
+    <MESSAGE value="add upload link to SharedHeader component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upload link to SharedHeader component" />
   </component>
 </project>
