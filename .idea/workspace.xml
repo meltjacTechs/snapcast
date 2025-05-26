@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add logout button to Navbar component">
-      <change afterPath="$PROJECT_DIR$/components/SharedHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.d.ts" afterDir="false" />
+    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add SharedHeader component and update page layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SharedHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SharedHeader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       <workItem from="1748011228644" duration="3876000" />
       <workItem from="1748063998332" duration="2481000" />
       <workItem from="1748213250054" duration="2499000" />
-      <workItem from="1748246647741" duration="5281000" />
+      <workItem from="1748246647741" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="add font integration and layout updates for Satoshi font">
       <option name="closed" value="true" />
@@ -170,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748249039138</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add SharedHeader component and update page layout">
+      <option name="closed" value="true" />
+      <created>1748255025206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748255025206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
     <MESSAGE value="add Navbar component and update RootLayout to include it" />
     <MESSAGE value="add user avatar button to Navbar component" />
     <MESSAGE value="add logout button to Navbar component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logout button to Navbar component" />
+    <MESSAGE value="add SharedHeader component and update page layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SharedHeader component and update page layout" />
   </component>
 </project>

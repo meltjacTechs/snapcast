@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const SharedHeader = ({ subHeader, title, userImg } : SharedHeaderProps) => {
     return (
@@ -14,6 +15,15 @@ const SharedHeader = ({ subHeader, title, userImg } : SharedHeaderProps) => {
                     <h1>{title}</h1>
                 </article>
                 </div>
+
+                <aside>
+                    <Link href="/upload">
+                        <Image src="/assets/icons/upload.svg" alt="upload" width={16} height={16} />
+                        <span>
+                            Upload a video
+                        </span>
+                    </Link>
+                </aside>
             </section>
         </header>
     )
