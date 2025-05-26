@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add Auth and Root layout components">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/page.tsx" afterDir="false" />
+    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="refactor layout components and add new Page component">
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "C:/Users/jbemm/WebstormProjects/snapcast",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\jbemm\\WebstormProjects\\snapcast\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jbemm/WebstormProjects/snapcast&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\jbemm\\WebstormProjects\\snapcast\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -76,6 +79,7 @@
       <recent name="C:\Users\jbemm\WebstormProjects\snapcast" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jbemm\WebstormProjects\snapcast\app\(auth)\sign-in" />
       <recent name="C:\Users\jbemm\WebstormProjects\snapcast\app\(root)" />
       <recent name="C:\Users\jbemm\WebstormProjects\snapcast" />
     </key>
@@ -115,7 +119,8 @@
       <workItem from="1747888197728" duration="605000" />
       <workItem from="1748011228644" duration="3876000" />
       <workItem from="1748063998332" duration="2481000" />
-      <workItem from="1748213250054" duration="2312000" />
+      <workItem from="1748213250054" duration="2499000" />
+      <workItem from="1748246647741" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="add font integration and layout updates for Satoshi font">
       <option name="closed" value="true" />
@@ -133,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748215283492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor layout components and add new Page component">
+      <option name="closed" value="true" />
+      <created>1748215694773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748215694773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add font integration and layout updates for Satoshi font" />
     <MESSAGE value="add Auth and Root layout components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Auth and Root layout components" />
+    <MESSAGE value="refactor layout components and add new Page component" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor layout components and add new Page component" />
   </component>
 </project>
