@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add upload link to SharedHeader component">
-      <change afterPath="$PROJECT_DIR$/components/DropdownList.tsx" afterDir="false" />
+    <list default="true" id="53b55fd6-750d-4a17-82c8-ad2badf46ad2" name="Changes" comment="add DropdownList component and integrate it into SharedHeader">
+      <change afterPath="$PROJECT_DIR$/app/(root)/profile/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ImageWithFallback.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RecordScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drizzle/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hooks/useScreenRecording.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DropdownList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DropdownList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/SharedHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SharedHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -118,7 +128,14 @@
       <workItem from="1748011228644" duration="3876000" />
       <workItem from="1748063998332" duration="2481000" />
       <workItem from="1748213250054" duration="2499000" />
-      <workItem from="1748246647741" duration="7446000" />
+      <workItem from="1748246647741" duration="8779000" />
+      <workItem from="1748274140414" duration="5913000" />
+      <workItem from="1748440386971" duration="64000" />
+      <workItem from="1748945291226" duration="413000" />
+      <workItem from="1749121674307" duration="1199000" />
+      <workItem from="1749158949367" duration="124000" />
+      <workItem from="1749302893618" duration="3201000" />
+      <workItem from="1749450570989" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="add font integration and layout updates for Satoshi font">
       <option name="closed" value="true" />
@@ -184,11 +201,30 @@
       <option name="project" value="LOCAL" />
       <updated>1748255601171</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add DropdownList component and integrate it into SharedHeader">
+      <option name="closed" value="true" />
+      <created>1748262199045</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748262199045</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add font integration and layout updates for Satoshi font" />
@@ -199,6 +235,7 @@
     <MESSAGE value="add logout button to Navbar component" />
     <MESSAGE value="add SharedHeader component and update page layout" />
     <MESSAGE value="add upload link to SharedHeader component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upload link to SharedHeader component" />
+    <MESSAGE value="add DropdownList component and integrate it into SharedHeader" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DropdownList component and integrate it into SharedHeader" />
   </component>
 </project>
